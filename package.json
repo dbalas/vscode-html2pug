@@ -1,0 +1,59 @@
+{
+    "name": "vscode-html2pug",
+    "displayName": "html2pug",
+    "description": "HTML to PUG VSCode extension",
+    "version": "0.0.1",
+    "icon": "icon.png",
+    "bugs": {
+        "url": "https://github.com/dbalas/vscode-html2pug/issues",
+        "email": "dbalasdev@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dbalas/vscode-html2pug.git"
+    },
+    "license": "MIT",
+    "publisher": "dbalas",
+    "engines": {
+        "vscode": "^1.25.0"
+    },
+    "tags": [
+        "vscode",
+        "jade",
+        "pug",
+        "html2pug",
+        "html2jade"
+    ],
+    "categories": [
+        "Programming Languages",
+        "Formatters",
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:extension.transformHtml"
+    ],
+    "main": "./extension",
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.transformHtml",
+                "title": "html2pug: Transform"
+            }
+        ]
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "node ./node_modules/vscode/bin/test",
+        "publis": "vsce publish"
+    },
+    "devDependencies": {
+        "typescript": "^2.6.1",
+        "vscode": "^1.1.6",
+        "eslint": "^4.11.0",
+        "@types/node": "^7.0.43",
+        "@types/mocha": "^2.2.42"
+    },
+    "dependencies": {
+        "html2jade": "^0.8.6"
+    }
+}
