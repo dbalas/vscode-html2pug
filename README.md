@@ -4,7 +4,8 @@
 
 [![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 [![GitHub](https://img.shields.io/github/release/dbalas/vscode-html2pug.svg?style=flat-square)](https://github.com/dbalas/vscode-html2pug/releases)
-[![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/installs/vscode-html2pug.dbalas.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=vscode-html2pug.dbalas)
+[![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/version-short/dbalas.vscode-html2pug.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=dbalas.vscode-html2pug)
+[![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/installs/dbalas.vscode-html2pug.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=dbalas.vscode-html2pug)
 
 ## Features
 
@@ -15,7 +16,7 @@
 ## Installation
 
 Install this extension from the [VSCode
-Marketplace](https://marketplace.visualstudio.com/items?itemName=vscode-html2pug.dbalas)
+Marketplace](https://marketplace.visualstudio.com/items?itemName=dbalas.vscode-html2pug)
 
 ## Usage
 
