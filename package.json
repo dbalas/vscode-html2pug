@@ -2,7 +2,7 @@
     "name": "vscode-html2pug",
     "displayName": "html2pug",
     "description": "HTML to PUG VSCode extension",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "icon": "icon.png",
     "bugs": {
         "url": "https://github.com/dbalas/vscode-html2pug/issues",
@@ -30,13 +30,19 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:extension.transformHtml"
+        "onCommand:extension.transformHtmlToPug"
     ],
     "main": "./extension",
     "contributes": {
+        "keybindings": [{
+            "command": "extension.transformHtmlToPug",
+            "key": "ctrl+alt+p",
+            "mac": "cmd+alt+p",
+            "linux": "ctrl+alt+p"
+        }],
         "commands": [
             {
-                "command": "extension.transformHtml",
+                "command": "extension.transformHtmlToPug",
                 "title": "html2pug: Transform"
             }
         ]

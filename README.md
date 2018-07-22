@@ -9,9 +9,9 @@
 
 ## Features
 
-* Format selection
+* Format selection.
 * Multiple selections support.
-* TODO: Shortcut
+* Keyboard shortcut: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>p</kbd> / <kbd>⌘ Command</kbd> + <kbd>Alt</kbd> + <kbd>p</kbd>
 
 ## Installation
 
@@ -22,7 +22,20 @@ Marketplace](https://marketplace.visualstudio.com/items?itemName=dbalas.vscode-h
 
 1. Select the html.
 2. Hit <kbd>⌘ Command</kbd> + <kbd>⇧ Shift</kbd> + <kbd>p</kbd> / <kbd>Ctrl</kbd> + <kbd>⇧ Shift</kbd> + <kbd>p</kbd>
-3. Run `html2pug: Transform`.
+3. Run `html2pug: Transform` or <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>p</kbd> / <kbd>⌘ Command</kbd> + <kbd>Alt</kbd> + <kbd>p</kbd> .
+
+## Keyboard Shortcut
+
+Use the following to embed a shortcut in keybindings.json. Replace with your preferred key bindings.
+
+```json
+    {
+      "key": "ctrl+alt+p",
+      "command": "extension.transformHtmlToPug",
+    }
+```
+You can customize your shortcuts too under: File > Preferences > Keyboard Shortcuts. (Code > Preferences > Keyboard Shortcuts on macOS)
+Check [key bindings docs](https://code.visualstudio.com/docs/getstarted/keybindings).
 
 ## Built With
 * [html2jade](https://github.com/donpark/html2jade) - html to pug engine
