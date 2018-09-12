@@ -2,7 +2,7 @@
     "name": "vscode-html2pug",
     "displayName": "html2pug",
     "description": "HTML to PUG VSCode extension",
-    "version": "0.0.2",
+    "version": "0.1.0",
     "icon": "icon.png",
     "bugs": {
         "url": "https://github.com/dbalas/vscode-html2pug/issues",
