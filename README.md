@@ -38,7 +38,7 @@ You can customize your shortcuts too under: File > Preferences > Keyboard Shortc
 Check [key bindings docs](https://code.visualstudio.com/docs/getstarted/keybindings).
 
 ## Built With
-* [html2jade](https://github.com/donpark/html2jade) - html to pug engine
+* [html2pug](https://github.com/izolate/html2pug) - html to pug engine
 
 ## Contributing
 Feel free to submit pull request or suggestions [here](https://github.com/dbalas/vscode-html2pug/issues/new).
@@ -54,4 +54,3 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 ## License
 
 [MIT license](LICENSE.md).
-

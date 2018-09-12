@@ -34,12 +34,14 @@
     ],
     "main": "./extension",
     "contributes": {
-        "keybindings": [{
-            "command": "extension.transformHtmlToPug",
-            "key": "ctrl+alt+p",
-            "mac": "cmd+alt+p",
-            "linux": "ctrl+alt+p"
-        }],
+        "keybindings": [
+            {
+                "command": "extension.transformHtmlToPug",
+                "key": "ctrl+alt+p",
+                "mac": "cmd+alt+p",
+                "linux": "ctrl+alt+p"
+            }
+        ],
         "commands": [
             {
                 "command": "extension.transformHtmlToPug",
@@ -59,6 +61,6 @@
         "@types/mocha": "^2.2.42"
     },
     "dependencies": {
-        "html2jade": "^0.8.6"
+        "html2pug": "^2.0.1"
     }
 }

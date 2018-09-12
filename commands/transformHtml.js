@@ -1,13 +1,11 @@
 const vscode = require('vscode');
-const html2pug = require('html2jade');
+const html2pug = require('html2pug');
 
 function transform (htmlCode, config) {
     return new Promise((resolve, reject) => {
         if (!htmlCode || !htmlCode.length) return resolve(null);
-        html2pug.convertHtml(htmlCode, config, (err, pug) => {
-            if (err) reject(err);
-            resolve(pug);
-        });
+        try { resolve(html2pug(htmlCode, config)); }
+        catch (error) { reject(error); }
     })
 }
 
@@ -15,10 +13,7 @@ function transformSelections(editor) {
     let selections = editor.selections;
     const config = {
         tabs: !editor.options.insertSpaces,
-        nspaces: editor.options.tabSize,
-        donotencode: true,
-        bodyless: true,
-        noemptypipe: true,
+        fragment: true
     };
     return selections.map((selection) => {
         const htmlCode = editor.document.getText(selection);
