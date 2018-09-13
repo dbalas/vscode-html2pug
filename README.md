@@ -46,6 +46,7 @@ Feel free to submit pull request or suggestions [here](https://github.com/dbalas
 ## Contributors
 
 * **Daniel Balastegui** - *Initial work* - [dbalas](https://github.com/dbalas)
+* **Lu Nelson** - *Contributor* - [lunelson](https://github.com/lunelson)
 
 ## Versioning
 
