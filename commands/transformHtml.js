@@ -12,8 +12,9 @@ function transform (htmlCode, config) {
 function transformSelections(editor) {
     let selections = editor.selections;
     const config = {
-        tabs: !editor.options.insertSpaces,
-        fragment: true
+        useTabs: !editor.options.insertSpaces,
+        isFragment: true,
+        useCommas: true,
     };
     return selections.map((selection) => {
         const htmlCode = editor.document.getText(selection);
