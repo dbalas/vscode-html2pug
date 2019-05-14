@@ -46,7 +46,7 @@ Settings object with defaults.
       "html2pug": {
         "useTabs": false, // !editor.options.insertSpaces
         "isFragment": true,
-        "useDoubleQuotes": false,
+        // "useDoubleQuotes": false, //waiting html2pug version
         "useCommas": false,
       }
     }
