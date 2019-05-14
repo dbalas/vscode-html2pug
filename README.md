@@ -44,10 +44,10 @@ Settings object with defaults.
 ```json
     {
       "html2pug": {
-        "useTabs": false, // !editor.options.insertSpaces
-        "isFragment": true,
-        // "useDoubleQuotes": false, //waiting html2pug version
-        "useCommas": false,
+        "tabs": false, // !editor.options.insertSpaces
+        "fragment": true,
+        "doubleQuotes": false,
+        "commas": false,
       }
     }
 ```
