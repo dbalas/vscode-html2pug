@@ -16,10 +16,10 @@ function transformSelections(editor) {
 	let selections = editor.selections;
 	const vscodeConfig = vscode.workspace.getConfiguration('html2pug', vscode.window.activeTextEditor.document.uri);
 	const config = {
-		useTabs: vscodeConfig.get('useTabs', !editor.options.insertSpaces),
-		isFragment: vscodeConfig.get('isFragment', true),
-		useDoubleQuotes: vscodeConfig.get('useDoubleQuotes', false),
-		useCommas: vscodeConfig.get('useCommas', false)
+		tabs: vscodeConfig.get('tabs', !editor.options.insertSpaces),
+		fragment: vscodeConfig.get('fragment', true),
+		doubleQuotes: vscodeConfig.get('doubleQuotes', false),
+		commas: vscodeConfig.get('commas', false)
 	};
 
 	return selections.map((selection) => {
