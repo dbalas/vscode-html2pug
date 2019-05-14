@@ -37,6 +37,21 @@ Use the following to embed a shortcut in keybindings.json. Replace with your pre
 You can customize your shortcuts too under: File > Preferences > Keyboard Shortcuts. (Code > Preferences > Keyboard Shortcuts on macOS)
 Check [key bindings docs](https://code.visualstudio.com/docs/getstarted/keybindings).
 
+## Options
+
+Settings object with defaults.
+
+```json
+    {
+      "html2pug": {
+        "useTabs": false, // !editor.options.insertSpaces
+        "isFragment": true,
+        "useDoubleQuotes": false,
+        "useCommas": false,
+      }
+    }
+```
+
 ## Built With
 * [html2pug](https://github.com/izolate/html2pug) - html to pug engine
 
