@@ -47,7 +47,29 @@
                 "command": "extension.transformHtmlToPug",
                 "title": "html2pug: Transform"
             }
-        ]
+        ],
+        "configuration": {
+            "title": "html2pug settings",
+            "properties": {
+                "html2pug.tabs": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "!editor.options.insertSpaces"
+                },
+                "html2pug.fragment": {
+                    "type": "boolean",
+                    "default": true
+                },
+                "html2pug.doubleQuotes": {
+                    "type": "boolean",
+                    "default": false
+                },
+                "html2pug.commas": {
+                    "type": "boolean",
+                    "default": false
+                }
+            }
+        }
     },
     "scripts": {
         "postinstall": "node ./node_modules/vscode/bin/install",
