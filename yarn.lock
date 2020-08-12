@@ -18,10 +18,10 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
-"@types/mocha@^5.2.6":
-  version "5.2.7"
-  resolved "https://registry.yarnpkg.com/@types/mocha/-/mocha-5.2.7.tgz#315d570ccb56c53452ff8638738df60726d5b6ea"
-  integrity sha512-NYrtPht0wGzhwe9+/idPaBB+TqkY9AhTvOLMkThm0IoEfLaiVQZwBwyJ5puCkO3AUCWrmcoePjp2mbFocKy4SQ==
+"@types/mocha@^8.0.2":
+  version "8.0.2"
+  resolved "https://registry.yarnpkg.com/@types/mocha/-/mocha-8.0.2.tgz#cdd160767c5a445bedef94ea8cfc8ab760fff42b"
+  integrity sha512-5cv8rmqT3KX9XtWDvSgGYfS4OwrKM2eei90GWLnTYz+AXRiBv5uYcKBjnkQ4katNvfYk3+o2bHGZUsDhdcoUyg==
 
 "@types/node@^13.1.6":
   version "13.1.6"
